@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    </he ad>
+    <link rel="stylesheet" href="main.css">
+    </head>
 
 <body>
     <h3 align="center">THÔNG TIN SƠ CƠ BẢN</h3>
     <form action="info.php" method="Post">
-        <table width="400" border="3" cellpadding="10" align="center" backgroud>
+        <table width="400" border="3" cellpadding="10" align="center"  ">
             <tr>
                 <td>
                     <div class="mb-3 row">
@@ -71,10 +72,10 @@
                 </td>
             </tr>
         </table>
-        <div align="center">
-            <br> <input type="submit" name="ok" id="ok">
-                <input type="reset" name="reset" id="reset">
+        <div  align="center">
+            <br> <input class="button"  type="submit" name="ok" id="ok">
         </div>
+        
     </form>
 
 </body>

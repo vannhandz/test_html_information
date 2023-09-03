@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>info</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -65,8 +66,8 @@
     </table>
     <div align="center">
         <br>
-        <button onclick="goBack()">Quay lại</button>
-        <script>
+        <button class="button" onclick="goBack()">Quay lại</button>
+        <script >
             function goBack() {
                 window.history.back();
             }

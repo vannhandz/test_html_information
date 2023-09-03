@@ -1,0 +1,16 @@
+.button{
+            font-size: 25px;
+            background-color: #000000;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            transform: all 0.3s ease 0s;
+            color: #fff;
+
+}
+.button:hover{
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(45,229,157,0.4);
+    color: #fff;
+    transform: translateY(-5px);
+}
